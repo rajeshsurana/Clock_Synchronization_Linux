@@ -1,0 +1,90 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>Syncing Clock in Distributed System</title>
+  <meta name="description" content="A complete guide to synchronize clocks in distributed environment">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Syncing Clock in Distributed System</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">A complete guide to synchronize clocks in distributed environment</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/rajeshsurana/Clock_Synchronization_Linux/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/rajeshsurana/Clock_Synchronization_Linux/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/rajeshsurana/Clock_Synchronization_Linux" class="code">View Syncing Clock in Distributed System on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <p>Welcome to the Clock_Synchronization_Linux wiki!
+This project is created in response to the requirement in CSE536- Advanced Operating System. We choose <strong>Linux</strong> for our project because it is open source as well as free. In addition, it is easily customizable because we have source code, compiling tools as well as online forums and blogs for help. In all, in terms of cost, support and legality of use, Linux is the best choice. For this project we used Ubuntu 14.04.1 LTS. The project itself is divided in 3 parts.</p>
+
+<p>Before using any tool or software, the basic requirement is that we should be able to install it on our system. That’s why first step of <a href="https://github.com/rajeshsurana/Clock_Synchronization_Linux/blob/master/Project1/Project%201%20Formal%20Report.pdf">part-1</a> is installation of Ubuntu. Goal is to make ourselves comfortable with the GUI of the Ubuntu and its functionalities such as terminal, text editor or compiler. It is important to understand how to update the software to get the latest security mechanisms as well as new utilities. Same analogy applies to kernel also. In fact, update of kernel is not just meant to be better functionality but an environment which is more secure and bug free. That’s why our second step of part-1 is to understand how to update a kernel to its latest revision. Perk of part-1 is at last where we get to know the typical structure of kernel module. We even devise a way to debug a kernel module on top of which debugger run.</p>
+
+<p>In <a href="https://github.com/rajeshsurana/Clock_Synchronization_Linux/blob/master/Project2/Project2.pdf">part-2</a>, we build a communication channel that uses normal read/write system calls to communicate over IP. Here, we replace the standard socket interface used by most network programs and allow one application to communicate in full duplex via ipv4. Ipv4 is not to be altered. A write on system A will fill a read buffer on system B and visa-versa.</p>
+
+<p><a href="https://github.com/rajeshsurana/Clock_Synchronization_Linux/blob/master/Project3/Project3.pdf">Part-3</a> uses part-2 to communicate between machines to implement a logical clock. When sending a message from system A to system B we want to have an ordering to determine among several messages which came first.</p>
+
+<p>For complete report please click <a href="https://github.com/rajeshsurana/Clock_Synchronization_Linux/blob/master/Formal_Report/Formal_Report_CSE536.pdf">here</a>.</p>
+
+<p><strong>Snapshots of the application-</strong></p>
+
+<hr>
+
+<ol>
+<li><p>Sender (IP address = 192.168.0.40)
+<img src="https://raw.githubusercontent.com/rajeshsurana/Clock_Synchronization_Linux/master/Project3/img1.jpg" alt="Sender (IP address = 192.168.0.40)"></p></li>
+<li><p>Kernel Traces on sender side
+<img src="https://raw.githubusercontent.com/rajeshsurana/Clock_Synchronization_Linux/master/Project3/img2.jpg" alt="Kernel Traces on sender side"></p></li>
+<li><p>Receiver (IP address = 192.168.0.41)
+<img src="https://raw.githubusercontent.com/rajeshsurana/Clock_Synchronization_Linux/master/Project3/img3.jpg" alt="Receiver (IP address = 192.168.0.41)"></p></li>
+<li><p>Kernel Traces on receiver side
+<img src="https://raw.githubusercontent.com/rajeshsurana/Clock_Synchronization_Linux/master/Project3/img4.jpg" alt="Kernel Traces on receiver side"></p></li>
+<li><p>Monitor after the events and acknowledgements
+<img src="https://raw.githubusercontent.com/rajeshsurana/Clock_Synchronization_Linux/master/Project3/img5.jpg" alt="Monitor after the events and acknowledgements"></p></li>
+</ol>
+
+<p>*Note: The problem statements are provided by prof. Skousen.</p>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/rajeshsurana" class="avatar"><img src="https://avatars0.githubusercontent.com/u/10310742?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/rajeshsurana">rajeshsurana</a> maintains <a href="https://github.com/rajeshsurana/Clock_Synchronization_Linux">Syncing Clock in Distributed System</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/rajeshsurana/Clock_Synchronization_Linux/tarball/master" class="tar">tar</a><a href="https://github.com/rajeshsurana/Clock_Synchronization_Linux/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
